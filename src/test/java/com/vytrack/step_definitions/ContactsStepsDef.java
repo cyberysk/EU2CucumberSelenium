@@ -12,7 +12,7 @@ import org.junit.Assert;
 
 import java.util.List;
 import java.util.Map;
-
+//I added this line from Github
 public class ContactsStepsDef {
 
     @Given("the user logged in as {string}")
