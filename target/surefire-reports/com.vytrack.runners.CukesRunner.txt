@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.vytrack.runners.CukesRunner
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 46.87 s <<< FAILURE! - in com.vytrack.runners.CukesRunner
+Sales Manager user(Account types)  Time elapsed: 16.613 s  <<< FAILURE!
+java.lang.AssertionError: Actual Title: All - Accounts - Customers
+
+Store Manager user(Account types)  Time elapsed: 16.323 s  <<< FAILURE!
+java.lang.AssertionError: Actual Title: All - Contacts - Customers
+

@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.vytrack.runners.FailedTestRunner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 34.803 s <<< FAILURE! - in com.vytrack.runners.FailedTestRunner
+Sales Manager user(Account types)  Time elapsed: 16.405 s  <<< FAILURE!
+java.lang.AssertionError: Actual Title: All - Accounts - Customers
+
+Store Manager user(Account types)  Time elapsed: 18.387 s  <<< FAILURE!
+java.lang.AssertionError: Actual Title: All - Contacts - Customers
+
