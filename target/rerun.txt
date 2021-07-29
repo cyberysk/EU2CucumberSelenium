@@ -1,2 +1,1 @@
-file:src/test/resources/features/Contacts.feature:4
-file:src/test/resources/features/AccountTypes.feature:8
+file:src/test/resources/features/Contacts.feature:16
