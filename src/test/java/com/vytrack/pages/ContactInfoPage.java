@@ -14,4 +14,17 @@ public class ContactInfoPage extends BasePage {
     @FindBy(css="a.email")
     public WebElement email;
 
+    public String contactFullName(){
+        return contactFullName.getText();
+    }
+
+    public String phone(){
+
+        return phone.getText();
+    }
+
+    public String email(){
+        return email.getText();
+    }
+
 }
