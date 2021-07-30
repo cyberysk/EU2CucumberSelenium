@@ -17,6 +17,7 @@ import java.sql.Statement;
 import java.util.List;
 import java.util.Map;
 
+
 public class ContactsStepsDef {
 
     @Given("the user logged in as {string}")
@@ -61,6 +62,7 @@ public class ContactsStepsDef {
 
         new LoginPage().login(userInfo.get("username"),userInfo.get("password"));
         DashboardPage dashboardPage = new DashboardPage();
+
         BrowserUtils.waitFor(2);
         String actualUserName = dashboardPage.getUserName();
         String expectedUserName = userInfo.get("firstname") + " " + userInfo.get("lastname");
@@ -127,6 +129,9 @@ public class ContactsStepsDef {
                     "on e.owner_id = p.owner_id\n" +
                     "WHERE e.email='mbrackstone9@example.com'";
 
+//        DBUtils dbUtils = new DBUtils();
+//
+//        Map<String, Object> rowMap = dbUtils.getRowMap(myQuery);
         Map<String, Object> rowMap = DBUtils.getRowMap(myQuery);
 
         String expectedFullname = (String) rowMap.get("fullname");

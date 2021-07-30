@@ -79,3 +79,14 @@ Feature: Contacts page
     And the user navigates "Customers" "Contacts"
     When the user clicks the "mike.jorden@hotmail.com" from contacts
     Then the information "mike.jorden@hotmail.com" should be same with database
+
+
+  Scenario Outline: Contacts test with email
+    Given the user logged in as "store manager"
+    And the user navigates "Customers" "Contacts"
+    When the user clicks the "<email>" from contacts
+    Then the information "<email>" should be same with database
+    Examples:
+    |email|
+    |mbrackstone9@example.com|
+    |mike.jorden@hotmail.com |
