@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-07-30T11:29:21.152Z",
+        "start_timestamp": "2021-07-30T11:55:20.493Z",
         "before": [
           {
             "result": {
-              "duration": 2683854000,
+              "duration": 2531755000,
               "status": "passed"
             },
             "match": {
@@ -16,7 +16,7 @@
           },
           {
             "result": {
-              "duration": 829081000,
+              "duration": 855534000,
               "status": "passed"
             },
             "match": {
@@ -24,14 +24,14 @@
             }
           }
         ],
-        "line": 78,
+        "line": 77,
         "name": "Contacts test with email",
         "description": "",
         "id": "contacts-page;contacts-test-with-email",
         "after": [
           {
             "result": {
-              "duration": 4782000,
+              "duration": 5208000,
               "status": "passed"
             },
             "match": {
@@ -40,7 +40,7 @@
           },
           {
             "result": {
-              "duration": 167953000,
+              "duration": 333399000,
               "status": "passed"
             },
             "match": {
@@ -53,10 +53,10 @@
         "steps": [
           {
             "result": {
-              "duration": 4439803000,
+              "duration": 4123036000,
               "status": "passed"
             },
-            "line": 79,
+            "line": 78,
             "name": "the user logged in as \"store manager\"",
             "match": {
               "arguments": [
@@ -71,10 +71,10 @@
           },
           {
             "result": {
-              "duration": 3802730000,
+              "duration": 3972507000,
               "status": "passed"
             },
-            "line": 80,
+            "line": 79,
             "name": "the user navigates \"Customers\" \"Contacts\"",
             "match": {
               "arguments": [
@@ -93,10 +93,10 @@
           },
           {
             "result": {
-              "duration": 2731252000,
+              "duration": 2788444000,
               "status": "passed"
             },
-            "line": 81,
+            "line": 80,
             "name": "the user clicks the \"mike.jorden@hotmail.com\" from contacts",
             "match": {
               "arguments": [
@@ -111,10 +111,10 @@
           },
           {
             "result": {
-              "duration": 1532738000,
+              "duration": 1176447000,
               "status": "passed"
             },
-            "line": 82,
+            "line": 81,
             "name": "the information \"mike.jorden@hotmail.com\" should be same with database",
             "match": {
               "arguments": [
