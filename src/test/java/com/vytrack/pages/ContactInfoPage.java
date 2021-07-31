@@ -15,6 +15,7 @@ public class ContactInfoPage extends BasePage {
     public WebElement email;
 
     public String contactFullName(){
+
         return contactFullName.getText();
     }
 
@@ -24,7 +25,9 @@ public class ContactInfoPage extends BasePage {
     }
 
     public String email(){
+
         return email.getText();
+
     }
 
 }
