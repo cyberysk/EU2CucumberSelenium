@@ -1,13 +1,13 @@
 Feature: Contacts page
 
-  @smoke
+  @smoke  @wip 
   Scenario: Default page number
     Given the user is on the login page
     And the user enter the driver information
     When the user navigates "Customers" "Contacts"
     Then default page number should be 1
 
-  @smoke
+  @smoke  @wip 
   Scenario: Verify Create Calendar Event
     Given the user is on the login page
     And the user enter sales manager information
@@ -81,7 +81,7 @@ Feature: Contacts page
     When the user clicks the "mike.jorden@hotmail.com" from contacts
     Then the information "mike.jorden@hotmail.com" should be same with database
 
-  @wip @db
+ @db
   Scenario Outline: Contacts test with email
     Given the user logged in as "store manager"
     And the user navigates "Customers" "Contacts"
